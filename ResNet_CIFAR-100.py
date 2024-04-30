@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1qwU7yQIhzeY0gizRzjk61xqcBcJnDNh7
 """
 
-!pip install wandb
+#!pip install wandb
 !pip install torch torchvision
 
 #import wandb
@@ -153,3 +153,4 @@ for epoch in range(num_epochs):
 
 print('Finished Training')
 
+#wandb.finish()
