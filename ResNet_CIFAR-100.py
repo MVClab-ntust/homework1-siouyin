@@ -4,7 +4,6 @@
 #import argparse
 #wandb.login()
 #wandb.init(
-    # set the wandb project where this run will be logged
     #project="deep-learning-practice",
     # track hyperparameters and run metadata
     #config={
